@@ -24,6 +24,9 @@
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS2 Feed" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
+<!-- For Google Services verification -->
+<meta name="google-site-verification" content="rDqLmDDQ5hCA5M98u1Ey3qV-203XaLtVIYr_Qr6OUMc" />
+
 <?php wp_head(); ?>
 
 <!--[if IE 6 ]>
