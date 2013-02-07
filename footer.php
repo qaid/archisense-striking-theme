@@ -174,7 +174,7 @@ endif;
 <?php if(theme_get_option('footer','sub_footer')):?>
 	<div id="footer_bottom">
 		<div class="inner">
-			<div id="copyright"><?php echo wpml_t(THEME_NAME, 'Copyright Footer Text',stripslashes(theme_get_option('footer','copyright')))?></div>
+			<div id="copyright">&copy;<?php echo date('Y'); ?>. <?php echo wpml_t(THEME_NAME, 'Copyright Footer Text',stripslashes(theme_get_option('footer','copyright')))?></div>
 <?php 
 	$footer_right_area_type = theme_get_option('footer','footer_right_area_type');
 	switch($footer_right_area_type){
