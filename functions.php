@@ -26,3 +26,4 @@ if(!class_exists('Theme')){
 }
 
 /* You custom functions below */
+include 'shortcodes.php';
