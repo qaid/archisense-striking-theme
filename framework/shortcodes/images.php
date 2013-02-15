@@ -76,7 +76,7 @@ function theme_shortcode_image($atts, $content = null, $code) {
 		}
 	}else{
 		$content = '<img width="'.$width.'" '.((empty($height))?'':'height="'.$height.'"'). ' alt="'.$title.'" src="'.$image_src.'" />';
-		return '<span class="image_styled'.($align?' align'.$align:'').'"><span class="image_frame effect-'.$effect.'" style="width:'.$width.'px;'.((empty($height))?'':'height:'.$height.'px').'"><a'.($group?' rel="'.$group.'"':'').$linktarget.$lightbox_fittoview.' class="image_size_'.$size.$no_link.($icon?' image_icon_'.$icon:'').($lightbox =='true'?' lightbox':'').'" title="'.$title.'" href="'.$link.'">' . $content . '</a></span><img class="" width="'.($width+2).'" src="'.THEME_IMAGES.'/image_shadow.png"/>'.$caption_str.'</span>';
+		return '<span class="image_styled'.($align?' align'.$align:'').'"><span class="image_frame effect-'.$effect.'" style="width:'.$width.'px;'.((empty($height))?'':'height:'.$height.'px').'"><a'.($group?' rel="'.$group.'"':'').$linktarget.$lightbox_fittoview.' class="image_size_'.$size.$no_link.($icon?' image_icon_'.$icon:'').($lightbox =='true'?' lightbox':'').'" title="'.$title.'" href="'.$link.'">' . $content . '</a></span><img class="" width="'.($width+2).'" src=""/>'.$caption_str.'</span>';
 	}
 }
 add_shortcode('image', 'theme_shortcode_image');

@@ -394,7 +394,7 @@ function theme_section_portfolio_list($options){
 			$output .= '<img src="' . $image_src . '" width="'.$size[0].'" height="'.$size[1].'" title="' . get_the_title() . '" alt="' . get_the_title() . '" />';
 			$output .= '</a>';
 			$output .= '</span>';
-			$output .= '<img src="' . THEME_IMAGES . '/image_shadow.png" class="image_shadow">';
+			$output .= '<img src="" class="">';
 			$output .= '</div>';
 		}
 		

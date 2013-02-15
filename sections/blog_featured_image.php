@@ -108,7 +108,7 @@ function theme_section_blog_featured_image($type='full',$layout='',$height='',$f
 		
 	}
 	$output .= '</span>';
-	$output .= '<img src="'.THEME_IMAGES.'/image_shadow.png" class="image_shadow" width="'.($width+2).'" alt="" style="width:'.($width+2).'px">';
+	$output .= '<img src="" class="" width="'.($width+2).'" alt="" style="width:'.($width+2).'px">';
 	$output .= '</div>';
 
 	return $output;
